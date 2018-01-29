@@ -1,0 +1,20 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #f7f6ed;
+}
+
+h2 {
+	color: #2c3e50;
+	font-size: 2.0rem;
+}
+
+hr {
+    border: 0;
+    border-top: 3px solid rgba(21, 34, 114, 0.9);
+	border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.post {
+	padding-bottom: 20px;
+}
+
