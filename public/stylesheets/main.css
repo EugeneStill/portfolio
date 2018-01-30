@@ -1,11 +1,21 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif;
 	background-color: #f7f6ed;
 }
 
+.container {
+	width: 80%;
+	/*border: 20px solid #bdc3c7;*/
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 20px;
+  	margin: 20px auto;
+  	max-width: 900px;
+  	font-size: 1.5em;
+}
+
+
 h2 {
 	color: #2c3e50;
-	font-size: 2.0rem;
+	font-size: 2.5rem;
 }
 
 hr {
@@ -16,5 +26,12 @@ hr {
 
 .post {
 	padding-bottom: 20px;
+}
+
+.thumbnail {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin: auto auto;
 }
 
