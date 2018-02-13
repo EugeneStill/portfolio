@@ -5,14 +5,20 @@ body {
 	padding-top: 5%;
 }
 
+.container {
+	width: 80%;
+  	margin: 20px auto;
+  	max-width: 900px;
+}
+
 a {
-  text-decoration: none;
-  color: #3db0f7;
+   color: #3db0f7;
 }
 
 a:visited { 
     color: #3db0f7;
 }
+
 button {
 	background-color: #fff;
 	color: blue;
