@@ -1,37 +1,45 @@
 body {
-	background-color: #f7f6ed;
+	margin:0 auto;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 5%;
 }
 
-.container {
-	width: 80%;
-	/*border: 20px solid #bdc3c7;*/
-	font-family: 'Source Sans Pro', sans-serif;
-	padding: 20px;
-  	margin: 20px auto;
-  	max-width: 900px;
-  	font-size: 1.0em;
+a {
+  text-decoration: none;
+  color: #3db0f7;
 }
 
-
-h2 {
-	color: #2c3e50;
-	font-size: 2.0rem;
+a:visited { 
+    color: #3db0f7;
+}
+button {
+	background-color: #fff;
+	color: blue;
+	border: 2px solid #3db0f7;
+	padding: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
-hr {
-    border: 0;
-    border-top: 3px solid rgba(21, 34, 114, 0.9);
-	border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+h1 {
+	font-size: 350%;
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
-.post {
-	padding-bottom: 20px;
+h2, h3 {
+	color: #a8354a;
 }
 
-.thumbnail {
-    width: 40%;
-    height: 40%;
-    display: block;
-    margin: auto auto;
+h4 {
+	color: #3db0f7;
 }
 
+.mail {
+	color: #000;
+}
+
+.mail:visited {
+	color: #000;
+}
