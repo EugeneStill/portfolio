@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin:0 auto;
 	text-align: center;
@@ -26,6 +30,21 @@ button {
 	padding: 5px;
 	margin-right: 5px;
 	margin-left: 5px;
+}
+
+.sites { 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+}
+
+@media(max-width: 500px) {
+	.sites {
+		flex-direction: column;
+		justify-content: center;
+		flex-basis: 25%;
+	}
 }
 
 h1 {
