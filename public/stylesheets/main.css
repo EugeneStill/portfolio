@@ -30,6 +30,10 @@ a:hover {
 	color: #000;
 }
 
+#phone {
+	color: black;
+}
+
 section {
 	display: flex;
 	flex-direction: column;
