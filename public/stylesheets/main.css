@@ -26,14 +26,6 @@ a:hover {
 	opacity: 0.75;
 }
 
-.mail {
-	color: #000;
-}
-
-#phone {
-	color: #000;
-}
-
 section {
 	display: flex;
 	flex-direction: column;
@@ -236,8 +228,12 @@ header nav li {
 }
 
 /*Contact Section*/
-.contact h4 {
+.contact a {
 	margin-bottom: 10px;
+	color: #000;
+}
+
+.contact h4 {
 	color: #000;
 }
 
