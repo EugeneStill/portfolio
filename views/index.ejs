@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Make site responsive on mobile/tablet -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Eugene Still</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-        <link rel="stylesheet" href="/stylesheets/main.css"></link>
-        <meta name="google" value="notranslate">
-    </head>
-    <body>
-        
-        <div class="container">
-          <h1>Eugene Still</h1>
-      
-          <h2>Developer / QA Engineer</h2>
-          
-          <h3>JavaScript | Python | Ruby on Rails</h3>
-          
-          <h4>Websites</h4>
-          
-          <div class="sites">
-            
-              <button type="button" class="btn btn-default">
-              	<a href="https://eugenestill-yelpcamp.herokuapp.com/" target="_blank">YelpCamp</a>
-              </button>
-            
-              <button type="button" class="btn btn-default">
-              	<a href="https://eugenestill-colorguessing.herokuapp.com/" target="_blank">RGB Guesser</a>
-              </button>
-            
-              <button type="button" class="btn btn-default">
-              	<a href="https://eugenestill-alphablog.herokuapp.com/" target="_blank">Alpha Blog</a> 
-              </button>
-            
-          </div>
-          
-          <h4>
-          		<a href="https://github.com/EugeneStill" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub<span class="sr-only">(current)</span></a>  | 
-                  <a href="https://www.linkedin.com/in/eugene-still/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
-          </h4>
-          
-          <h5><a class="mail" href="mailto:eugenestill@sbcglobal.net">eugenestill@sbcglobal.net</a></h5>
-          
-          <h5>510.388.2289</h5>
-      
-        </div><!-- /.container -->
-        
-        <!-- jQuery CDN -->
-        <script
-          src="https://code.jquery.com/jquery-3.1.1.min.js"
-          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-          crossorigin="anonymous"></script>
-        
-        <!-- Bootstrap JS CDN -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-            
-    </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eugene Still</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/stylesheets/main.css"></link>
+</head>
+<body>
+  <!-- Forked from a template on Tutorialzine: https://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox -->
+  <header>
+    <h2>Eugene Still</h2>
+    <nav>
+      <li><a href="https://github.com/EugeneStill" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub<span class="sr-only">(current)</span></a></li>
+      <li><a href="https://www.linkedin.com/in/eugene-still/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="background-image" style="background-image: url(images/main.jpg);"></div>
+    <div class="hero-content-area">
+      <h1>Eugene Still</h1>
+      <h3>Developer/QA Engineer</h3>
+      <h3>JavaScript | Python | Ruby on Rails</h3>
+    </div>
+  </section>
+  
+  <section class="destinations">
+    <h3 class="title">Websites</h3>
+    <p>Here are some sites that were built using jQuery, JavaScript and Ruby on Rails plus a link to Selenium WebDriver test cases written in Python.</p>
+    <hr>
+    <ul class="grid">
+      <li class="small" style="background-image: url(images/rgb.jpg);"><button type="button" class="btn btn-primary">
+        <a href="https://eugenestill-colorguessing.herokuapp.com/" target="_blank">RGB Guesser<br>(jQuery)</a></button></li>
+      <li class="large" style="background-image: url(images/yelpcamp.jpg);"><button type="button" class="btn btn-primary">
+        <a href="https://eugenestill-yelpcamp.herokuapp.com/" target="_blank">YelpCamp<br>(JavaScript MEN Stack)</a></button></li>
+      <li class="large" style="background-image: url(images/alphabg.jpg);"><button type="button" class="btn btn-primary">
+        <a href="https://eugenestill-alphablog.herokuapp.com/" target="_blank">Alpha Blog<br>(Ruby on Rails)</a></button></li>
+      <li class="small" style="background-image: url(images/pycharm.jpg);"><button type="button" class="btn btn-primary">
+        Selenium WebDriver Repository<br>(Coming Soon!)</button></li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h3 class="title">Contact</h3>
+    <h4><a class="mail" href="mailto:eugenestillqa@gmail.com">eugenestillqa@gmail.com</a></h4>
+    <h4>510.388.2289</h4>
+    <br>
+    <hr>
+  </section>
+
+  <footer>
+    <p>Images courtesy of <a href="http://unsplash.com/">unsplash</a>.</p>
+    <p>Thanks for taking the time to read the footer!</p>
+    <ul>
+      <li><a href="https://github.com/EugeneStill" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub<span class="sr-only">(current)</span></a></li>
+      <li><a href="https://www.linkedin.com/in/eugene-still/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+    </ul>
+  </footer>
+
+</body>
 </html>
- 
-   
